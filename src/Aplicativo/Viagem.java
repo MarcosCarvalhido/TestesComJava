@@ -1,20 +1,18 @@
 package Aplicativo;
 
 public class Viagem {
-    protected String motorista;
-    protected String passageiro;
+    protected Motorista motorista;
+    protected Cliente cliente;
     protected String origem;
     protected String destino;
-    protected String metodoDePagamento;
     protected int distancia;
     protected double preçoPorKm = 1.00;
 
-    public Viagem(String origem,String destino,String metodoDePagamento,int distancia){
+    public Viagem(Motorista motorista, Cliente cliente, String origem,String destino,int distancia){
         this.motorista = motorista;
-        this.passageiro = passageiro;
+        this.cliente = cliente;
         this.origem = origem;
         this.destino = destino;
-        this.metodoDePagamento = metodoDePagamento;
         this.distancia = distancia;
     }
 

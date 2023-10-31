@@ -10,5 +10,10 @@ public class Cliente {
         this.idade = idade;
         this.endereço = endereço;
     }
+
+    // public Viagem SolicitarViagem(String origem,String destino){
+        // return new Viagem(origem, destino);
+    // }
+
 }
  

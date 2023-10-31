@@ -1,7 +1,7 @@
 package Aplicativo;
 
 public class Motorista {
-    
+    protected Carro carro;
     protected String nome;
     protected int idade;
     protected int nota;
@@ -11,4 +11,6 @@ public class Motorista {
         this.idade = idade;
         this.nota = nota;
     }
+
+    
 }
